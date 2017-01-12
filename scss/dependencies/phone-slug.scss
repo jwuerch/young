@@ -1,70 +1,80 @@
-/** PHONE SLUG **/
 
-$background: blue;
-$text-color: #FFF;
-$phone-color: #FFF;
 
+#slider {
+}
 
 .phone-slug {
-  background: $background;
-  padding-top:25px;
-  padding-bottom:0px;
-}
-.phone-slug h6 {
-  font-size:18px;
-  color:$text-color;
-  line-height:19px;
-  font-weight:400;
-  margin-bottom:4px;
-}
-.phone-slug .new-hotline {
-  font-size:36px;
-  font-weight:700;
-  line-height:25px;
-}
-.phone-slug .new-hotline a {
-  color:$phone-color;
-}
-.device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
-  margin-bottom:20px;
-}
-.phone-slug .old-hotline {
-  font-size:21px;
-  color:#FFF;
-  margin-top:15px;
-}
-.phone-slug .old-hotline a {
-  color:$phone-color;
-  font-weight:700;
-}
-.phone-slug  .col-sm-6.tleft {
-  border-left:1px solid #FFF;
-}
-.phone-slug .button {
-  margin:2.5px 0;
-}
-.device-xxs .phone-slug .button {
-  padding-left:15px;
-  padding-right:15px;
-  width:100%;
-}
+  .row {
+    background:#D7D7C8;
+    border-radius:9px;
+    margin:0 auto;
+    position:absolute;
+    z-index:9999;
+    margin-top:-80px;
 
-.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
-  font-size:24px;
-  font-weight:300;
-  margin-bottom:15px;
-}
 
-.device-xs .phone-slug .col-sm-6.tright, .device-xxs .phone-slug .col-sm-6.tright {
-  text-align:center !important;
-}
-.device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
-  text-align:center !important;
-  border-left:none;
-}
 
-.device-xs .old-hotline, .device-xxs .old-hotline {
-  font-size:24px;
-  font-weight:300;
-  line-height:35px !important;
+  }
+  .new-text {
+    font-family:$arimo;
+    color:#424242;
+    font-size:22px;
+    margin-bottom:-15px;
+  }
+  .new-phone {
+    font-family:$montserrat;
+    color:#535353;
+    font-weight:700;
+    font-size:36px;
+    margin-bottom:0;
+    margin-top:-10px;
+
+
+  }
+  .old-text {
+    font-family: $arimo;
+    font-weight:400;
+    font-size: 22px;
+    color: #424242;
+    margin-bottom:-5px;
+    line-height: 35px;
+  }
+  .col-sm-4 {
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    padding:50px 0;
+  }
+  .col-2 {
+    padding:62px 0;
+  }
+  .old-phone {
+    font-family: $montserrat;
+    font-weight:400;
+    font-size: 22px;
+    color: #424242;
+    line-height: 35px;
+    margin-bottom:0;
+  }
+  p {
+    width:100%;
+    text-align:center;
+    margin-bottom:0;
+  }
+  a {
+    text-align:center;
+  }
+  .col-1, .col-2 {
+    border-right:2px solid #FFF;
+  }
+  .button {
+    width:330px;
+    font-size:18px;
+  }
+  a:hover {
+    text-decoration:none;
+  }
+
 }
