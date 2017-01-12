@@ -8,7 +8,12 @@
   background:#FFF;
 }
 .service-modal h4 {
-  color:#768E44;
+  font-family: $patua;
+  font-size: 22px;
+  color: #545454;
+  letter-spacing: 0;
+  line-height:25px;
+  margin-top:10px;
 }
 .service-modal .modal-header {
   border-radius:3px 3px 0px 0px;
@@ -22,5 +27,17 @@
   margin-bottom:15px;
 }
 .service-modal img {
+  margin:0 auto;
+
   margin-bottom:10px;
+}
+.service-modal .img-wrap {
+  text-align:center;
+}
+
+.service-modal > div {
+  background:#FFF !important;
+}
+.modal-dialog {
+  background:#FFF !important;
 }

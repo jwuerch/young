@@ -25835,6 +25835,15 @@ a.social-icon.si-colored {
   justify-content: center;
   position: relative; }
 
+#copyrights {
+  background: #274208;
+  padding: 40px 0; }
+  #copyrights .col_full {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
 .phone-slug .row {
   background: #D7D7C8;
   border-radius: 9px; }
@@ -26175,82 +26184,205 @@ h4.modal-title {
           margin-left: 0;
           margin-right: 0; } }
 
-/** CONTACT **/
-#contact-form-overlay-mini {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-
-#contact img {
-  margin-bottom: 20px; }
-
-#contact p {
-  color: #6F6D6A;
-  font-size: 16px;
-  line-height: 21px; }
-
-#contact .click-map {
-  color: #846A20;
-  margin-top: -5px;
-  font-size: 16px;
-  text-decoration: underline; }
-
-#contact .text-phone-1 {
-  font-size: 36px;
-  font-weight: 900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357;
-  margin-bottom: 20px; }
-
-.device-xxs #contact .text-phone-1 {
-  font-size: 26px; }
-
-.device-xxs #contact .text-phone-2 {
-  font-size: 23px; }
-
-.device-xxs #contact .button {
-  font-size: 16px;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-#contact .text-phone-2 {
-  font-size: 26px;
-  font-weight: 900;
-  font-family: 'Lato', sans-serif;
-  color: #CBA357; }
-
-.patient-hotline {
-  margin-bottom: 7px; }
-
-#contact .button {
-  width: 100%;
-  letter-spacing: 0;
-  font-size: 18px;
-  margin-bottom: 20px;
-  padding-top: 2px; }
-
-#contact-form-overlay-mini > div:nth-child(2) > a.click-map:hover {
-  color: #846A20; }
-
-#contact-form-overlay-mini {
-  border-radius: 12px; }
-
-#contact-form-overlay-mini > div:nth-child(2) > a:nth-child(5):hover, #contact-form-overlay-mini > div:nth-child(2) > a:nth-child(8):hover {
-  text-decoration: none; }
+.google-map {
+  position: relative;
+  z-index: 55; }
+  .google-map img {
+    width: 100%;
+    z-index: 50;
+    position: relative; }
 
 #contact {
-  max-height: 600px; }
+  z-index: 99;
+  position: relative;
+  background: #747357; }
+  #contact .row {
+    display: flex; }
+    @media (max-width: 991px) {
+      #contact .row {
+        display: initial; } }
+  #contact .col-md-4 {
+    text-align: center;
+    padding: 50px 0; }
+  #contact .col-md-4:nth-child(1), #contact .col-md-4:nth-child(2) {
+    border-right: 2px solid #FFF; }
+    @media (max-width: 991px) {
+      #contact .col-md-4:nth-child(1), #contact .col-md-4:nth-child(2) {
+        border-right: none; } }
+  @media (max-width: 991px) {
+    #contact .col-1 {
+      padding-top: 150px; } }
+  #contact h6 {
+    font-family: "Patua One", cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  #contact p {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0; }
+  #contact .p-2 {
+    margin-bottom: 50px; }
+  #contact .p-3 a {
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    color: #CFCA87;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-decoration: underline; }
+  #contact .p-3 {
+    margin-bottom: 15px; }
+  #contact .social-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #contact .col-2 {
+    padding-top: 160px; }
+    #contact .col-2 .p-1 {
+      font-family: "Arimo", sans-serif;
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #FFFFFF; }
+    #contact .col-2 .p-2 {
+      font-family: "Patua One", cursive;
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 30px; }
+      #contact .col-2 .p-2 a {
+        color: #FFF; }
+    #contact .col-2 .p-3 {
+      font-family: "Arimo", sans-serif;
+      font-size: 20px;
+      color: #FFFFFF;
+      margin-bottom: 40px; }
+      #contact .col-2 .p-3 a {
+        color: #FFF; }
+    #contact .col-2 a:hover {
+      text-decoration: none; }
+    #contact .col-2 a {
+      text-decoration: none; }
+    #contact .col-2 .button {
+      width: 300px;
+      font-size: 16px;
+      padding-top: 5px; }
+  #contact .col-3 {
+    display: flex;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    #contact .col-3 .p-1 {
+      margin-bottom: 0;
+      font-family: "Patua One", cursive;
+      font-size: 24px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 25px;
+      width: 100%;
+      margin-top: -20px; }
+    #contact .col-3 .days {
+      display: flex;
+      margin-top: -50px;
+      position: relative;
+      top: -100px;
+      flex-direction: column-reverse; }
+      #contact .col-3 .days p {
+        margin-top: -50px;
+        margin-left: 50px;
+        width: 10%;
+        font-family: "Arimo", sans-serif;
+        font-weight: 700 !important;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 29px; }
+        @media (max-width: 1200px) {
+          #contact .col-3 .days p {
+            margin-left: 30px; } }
+    #contact .col-3 .times {
+      position: relative;
+      top: -100px;
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column-reverse; }
+      #contact .col-3 .times p {
+        text-align: left;
+        margin-left: 50px;
+        margin-top: -50px;
+        width: 100%;
+        font-family: "Arimo", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 29px; }
+        @media (max-width: 480px) {
+          #contact .col-3 .times p {
+            margin-left: 20px; } }
+    #contact .col-3 .hour-block {
+      display: flex;
+      justify-content: space-between;
+      align-self: center; }
+  @media (max-width: 991px) {
+    #contact .col-2 {
+      padding-top: 0; } }
+  @media (max-width: 991px) {
+    #contact .col-3 {
+      padding-top: 120px;
+      flex-direction: column-reverse;
+      position: relative;
+      top: -30px; }
+      #contact .col-3 .p-1 {
+        margin-top: -170px; } }
 
-.device-xxs #contact-form-overlay-mini {
-  padding-left: 15px;
-  padding-right: 15px; }
+#contact > .col-3 > .p-1 {
+  font-weight: 700 !important; }
 
-.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
-  box-shadow: none; }
+.img-wrap {
+  padding: 15px;
+  background: #FFF;
+  width: 225px;
+  height: 225px;
+  margin: 0 auto;
+  margin-top: -100px;
+  z-index: 9999;
+  position: absolute;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 6px; }
 
-#google-map {
-  height: 100%;
-  border-bottom: 5px solid #FFF; }
+.top-logo {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  position: relative;
+  background: black; }
+
+#contact > div > div > div.col-md-4.col-3 > div > div.days > p {
+  font-weight: 700; }
+
+@media (max-width: 480px) {
+  .p-time {
+    display: none; } }
+
+.p-time-2, .p-time-3 {
+  display: none !important; }
+  @media (max-width: 480px) {
+    .p-time-2, .p-time-3 {
+      display: inherit !important; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .p-time-2, .p-time-3 {
+    display: inherit !important; }
+  .p-time {
+    display: none; } }
+
+#contact {
+  height: auto !important; }
 
 #slide-1, #slide-2, #slide-3 {
   background-size: cover;
@@ -26438,6 +26570,345 @@ h4.modal-title {
       width: 70%; }
     #meet-the-team h4 {
       font-size: 20px; } }
+
+#reviews {
+  background: url("../images/team-BG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  height: 1100px;
+  padding: 80px 0; }
+  #reviews h2 {
+    font-family: "Patua One", cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+    @media (max-width: 991px) {
+      #reviews h2 {
+        font-size: 36px; } }
+    @media (max-width: 480px) {
+      #reviews h2 {
+        font-size: 28px;
+        line-height: 30px; } }
+  #reviews .bf-dv {
+    position: relative !important; }
+  #reviews .bf-dv, #reviews .bf-spn {
+    position: relative !important;
+    margin-top: 20px !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 12px !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important; }
+    #reviews .bf-dv a, #reviews .bf-spn a {
+      color: #FFF !important; }
+      #reviews .bf-dv a:hover, #reviews .bf-spn a:hover {
+        text-decoration: underline !important; }
+  @media (max-width: 1200px) {
+    #reviews {
+      height: 800px; } }
+  @media (max-width: 991px) {
+    #reviews {
+      background: #F5F5F5; } }
+  #reviews iframe {
+    position: relative !important;
+    top: 440px !important;
+    max-height: 460px !important; }
+    @media (max-width: 1200px) {
+      #reviews iframe {
+        max-height: 300px !important;
+        top: 300px !important;
+        max-width: 80%; } }
+    @media (max-width: 991px) {
+      #reviews iframe {
+        top: 0 !important;
+        max-height: 450px !important; } }
+  #reviews .bf-spn {
+    top: 440px !important; }
+    @media (max-width: 1200px) {
+      #reviews .bf-spn {
+        top: 300px !important; } }
+    @media (max-width: 991px) {
+      #reviews .bf-spn {
+        top: 0 !important; } }
+
+#no-insurance {
+  padding: 200px 0;
+  background: url("../images/insurance-bg2.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-size: cover;
+  background-position-x: 100%; }
+  @media (max-width: 1200px) {
+    #no-insurance {
+      background: #FAF8EC;
+      padding: 100px 0; } }
+  @media (max-width: 1200px) {
+    #no-insurance .col-lg-5 {
+      text-align: center; } }
+  #no-insurance h2 {
+    font-family: "Patua One", cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #3F6711;
+    letter-spacing: 1px;
+    margin-bottom: 10px; }
+  #no-insurance h3 {
+    font-family: "Arimo", sans-serif;
+    font-size: 48px;
+    color: #515151;
+    letter-spacing: -0.3px;
+    line-height: 45px;
+    margin-bottom: 40px;
+    font-weight: 400; }
+  #no-insurance h4 {
+    font-weight: 400;
+    font-family: "Arimo", sans-serif;
+    font-size: 37px;
+    color: #71706E;
+    letter-spacing: -0.24px;
+    line-height: 39px;
+    margin-bottom: 60px; }
+  #no-insurance p {
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    color: #393937;
+    letter-spacing: -0.28px;
+    line-height: 18px;
+    margin-bottom: 15px; }
+  #no-insurance .button {
+    margin-top: 120px;
+    width: 300px;
+    text-align: center; }
+  @media (max-width: 767px) {
+    #no-insurance {
+      padding: 70px 0; }
+      #no-insurance h2 {
+        font-size: 50px;
+        margin-bottom: 0; }
+      #no-insurance h3 {
+        font-size: 32px;
+        margin-bottom: 20px; }
+      #no-insurance h4 {
+        font-size: 26px;
+        margin-bottom: 50px; }
+      #no-insurance p {
+        font-size: 16px; }
+      #no-insurance .button {
+        margin-top: 50px; } }
+  @media (max-width: 480px) {
+    #no-insurance h2 {
+      font-size: 36px;
+      margin-bottom: -5px; }
+    #no-insurance h3 {
+      font-size: 24px;
+      margin-bottom: 20px; }
+    #no-insurance h4 {
+      line-height: 30px;
+      font-size: 22px;
+      margin-bottom: 30px; }
+    #no-insurance .button {
+      width: 250px; } }
+
+.no-insurance-mobile img {
+  width: 100%; }
+
+#office-tour {
+  padding: 50px 0;
+  background: #4F4F4F; }
+  #office-tour .center h2 {
+    font-family: "Patua One", cursive;
+    font-size: 48px;
+    color: #FFFFFF; }
+  #office-tour .center p {
+    font-family: "Arimo", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 27px; }
+    #office-tour .center p a {
+      color: #F79B6A;
+      text-decoration: underline; }
+  #office-tour .owl-dots {
+    display: none; }
+  #office-tour .owl-nav .owl-prev, #office-tour .owl-nav .owl-next {
+    opacity: 1 !important;
+    background: #ADB3A4;
+    color: #FFF;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #office-tour .owl-nav .owl-prev:hover, #office-tour .owl-nav .owl-next:hover {
+      background: #979C8F !important; }
+    @media (max-width: 1200px) {
+      #office-tour .owl-nav .owl-prev, #office-tour .owl-nav .owl-next {
+        top: 60%; } }
+  #office-tour .owl-nav .owl-prev {
+    left: -18px; }
+  #office-tour .owl-nav .owl-next {
+    right: -18px; }
+
+#services {
+  padding: 50px; }
+  #services h2 {
+    font-family: "Patua One", cursive;
+    font-size: 48px;
+    color: #3F6711;
+    letter-spacing: 1px; }
+    @media (max-width: 500px) {
+      #services h2 {
+        font-size: 42px; } }
+  #services p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #424242; }
+    #services p a {
+      text-decoration: underline;
+      color: #FA6D22; }
+
+#services-2 {
+  padding: 200px 0;
+  height: 1000px;
+  background: url("../images/services/cosmetic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media (max-width: 1300px) {
+    #services-2 {
+      background-position-x: -100px; } }
+  #services-2 h3 {
+    font-family: "Patua One", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #4F4F4F; }
+  #services-2 p {
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    color: #424242;
+    line-height: 24px; }
+  #services-2 .col-lg-6:nth-child(2) {
+    left: 200px;
+    position: relative;
+    top: 200px; }
+    @media (max-width: 1500px) {
+      #services-2 .col-lg-6:nth-child(2) {
+        left: 150px;
+        padding-left: 100px; } }
+    @media (max-width: 1400px) {
+      #services-2 .col-lg-6:nth-child(2) {
+        top: -150px;
+        left: 100px; } }
+    @media (max-width: 1300px) {
+      #services-2 .col-lg-6:nth-child(2) {
+        left: 50px; } }
+    @media (max-width: 1200px) {
+      #services-2 .col-lg-6:nth-child(2) {
+        left: 0;
+        top: 0;
+        padding-left: 0; } }
+  @media (max-width: 1200px) {
+    #services-2 {
+      padding: 50px;
+      background: #EFEEE9;
+      height: auto; } }
+  @media (max-width: 500px) {
+    #services-2 h3 {
+      font-size: 32px; } }
+
+.services-2-bg img {
+  width: 100%; }
+
+#services-3 {
+  padding: 30px 0; }
+  #services-3 .row {
+    display: flex; }
+    @media (max-width: 991px) {
+      #services-3 .row {
+        display: initial; } }
+  #services-3 .col-md-6 {
+    background: #F5F5F5;
+    border: 9px solid #F9F9F9; }
+    @media (max-width: 991px) {
+      #services-3 .col-md-6 {
+        margin-bottom: 30px; } }
+  #services-3 h3 {
+    font-family: "Patua One", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #4F4F4F; }
+  #services-3 p {
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    color: #424242;
+    line-height: 24px; }
+
+#services-4 {
+  padding: 30px 0; }
+  #services-4 .container {
+    background: #F5F5F5;
+    border: 9px solid #F9F9F9; }
+  #services-4 h6 {
+    font-family: "Patua One", cursive;
+    font-size: 22px;
+    color: #545454;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-top: 10px; }
+  #services-4 .owl-nav .owl-prev, #services-4 .owl-nav .owl-next {
+    opacity: 1 !important;
+    background: #D7D7C8;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px; }
+    #services-4 .owl-nav .owl-prev:hover, #services-4 .owl-nav .owl-next:hover {
+      background: #C8C8BA !important; }
+  #services-4 .owl-nav .owl-prev {
+    left: -18px; }
+  #services-4 .owl-nav .owl-next {
+    right: -18px; }
+
+/* Service Modals */
+#services a:hover {
+  text-decoration: none; }
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background: #FFF; }
+
+.service-modal h4 {
+  font-family: "Patua One", cursive;
+  font-size: 22px;
+  color: #545454;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-top: 10px; }
+
+.service-modal .modal-header {
+  border-radius: 3px 3px 0px 0px; }
+
+.service-modal .modal-body {
+  border-radius: 0px 0px 3px 3px; }
+
+.service-modal-text p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+.service-modal img {
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.service-modal .img-wrap {
+  text-align: center; }
+
+.service-modal > div {
+  background: #FFF !important; }
+
+.modal-dialog {
+  background: #FFF !important; }
 
 h1 {
   font-size: 64px; }

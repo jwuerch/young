@@ -4,6 +4,7 @@ $arimo: 'Arimo', sans-serif;
 $patua: 'Patua One', cursive;
 $montserrat: 'Montserrat', sans-serif;
 $lato: 'Lato', sans-serif;
+$opensans: 'Open Sans', sans-serif;
 
 
 @import "dependencies/bootstrap.scss";
@@ -20,6 +21,11 @@ $lato: 'Lato', sans-serif;
 @import "dependencies/location-section.scss";
 @import "dependencies/slides.scss";
 @import "dependencies/meet-the-team.scss";
+@import "dependencies/reviews.scss";
+@import "dependencies/no-insurance.scss";
+@import "dependencies/office-tour.scss";
+@import "dependencies/services.scss";
+@import "dependencies/service-modal.scss";
 
 
 // End Canvas Dependencies //

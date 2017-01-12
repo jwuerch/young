@@ -48,3 +48,13 @@ a.social-icon.si-colored {
   justify-content:center;
   position:relative;
 }
+#copyrights {
+  background:#274208;
+  padding:40px 0;
+  .col_full {
+    margin-bottom:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+}
