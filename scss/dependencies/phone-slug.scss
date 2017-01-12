@@ -70,6 +70,7 @@
     padding-left:30px;
     padding-right:30px;
     font-size:18px;
+
   }
   a:hover {
     text-decoration:none;
@@ -78,23 +79,35 @@
 }
 
 #phone-slug-1 {
+  background:#FFF;
   text-align:center;
   display:flex;
   justify-content:center;
   align-items:center;
+  @media (max-width:1200px) {
+    background:#FFF;
+
+  }
+
   .row {
     position:absolute;
     display:flex;
     align-self:center;
-    z-index:9999;
+    z-index:99;
     margin-top:-80px;
     margin-left:-25px;
     @media (max-width:1200px) {
+      width:100%;
       position:relative;
-      margin-top:0;
+      margin-left:0;
+
     }
-    @media (max-width:991px) {
-      display:none;
+
+  }
+  .button {
+    @media (max-width:1200px) {
+      padding-right:20px;
+      padding-left:20px;
     }
   }
 }
@@ -124,7 +137,6 @@
   }
   .text-old {
     font-family: $arimo;
-    margin-bottom:0;
     font-weight:400;
     font-size: 22px;
     color: #424242;
@@ -146,8 +158,10 @@
   .button {
     margin-top:-50px;
     margin-bottom:30px;
+
     @media (max-width:767px) {
       width:270px;
+      padding-top:5px;
       font-size:16px;
       text-align:center;
       padding-left:25px;
@@ -157,4 +171,14 @@
   .btn-wrap {
     text-align:center;
   }
+  a:hover {
+    text-decoration:none;
+  }
+}
+
+#phone-slug-medium-1 {
+  background:#D7D7C8;
+}
+.phone-slug-mobile {
+  background:#D7D7C8;
 }

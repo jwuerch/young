@@ -25901,24 +25901,30 @@ a.social-icon.si-colored {
   text-decoration: none; }
 
 #phone-slug-1 {
+  background: #FFF;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 1200px) {
+    #phone-slug-1 {
+      background: #FFF; } }
   #phone-slug-1 .row {
     position: absolute;
     display: flex;
     align-self: center;
-    z-index: 9999;
+    z-index: 99;
     margin-top: -80px;
     margin-left: -25px; }
     @media (max-width: 1200px) {
       #phone-slug-1 .row {
+        width: 100%;
         position: relative;
-        margin-top: 0; } }
-    @media (max-width: 991px) {
-      #phone-slug-1 .row {
-        display: none; } }
+        margin-left: 0; } }
+  @media (max-width: 1200px) {
+    #phone-slug-1 .button {
+      padding-right: 20px;
+      padding-left: 20px; } }
 
 .phone-slug-mobile {
   padding-top: 30px; }
@@ -25943,7 +25949,6 @@ a.social-icon.si-colored {
         font-size: 32px; } }
   .phone-slug-mobile .text-old {
     font-family: "Arimo", sans-serif;
-    margin-bottom: 0;
     font-weight: 400;
     font-size: 22px;
     color: #424242;
@@ -25965,12 +25970,21 @@ a.social-icon.si-colored {
     @media (max-width: 767px) {
       .phone-slug-mobile .button {
         width: 270px;
+        padding-top: 5px;
         font-size: 16px;
         text-align: center;
         padding-left: 25px;
         padding-right: 25px; } }
   .phone-slug-mobile .btn-wrap {
     text-align: center; }
+  .phone-slug-mobile a:hover {
+    text-decoration: none; }
+
+#phone-slug-medium-1 {
+  background: #D7D7C8; }
+
+.phone-slug-mobile {
+  background: #D7D7C8; }
 
 /** Contact Modal **/
 .form-error {
@@ -26338,6 +26352,75 @@ h4.modal-title {
     font-size: 32px; }
   #slide-3 .button {
     margin-top: 15px; } }
+
+#meet-the-team {
+  padding: 50px 0; }
+  @media (min-width: 1201px) {
+    #meet-the-team {
+      padding-top: 150px; } }
+  #meet-the-team h2 {
+    font-family: "Patua One", cursive;
+    font-size: 48px;
+    color: #3E6610;
+    margin-bottom: 20px;
+    line-height: 40px; }
+  #meet-the-team h6 {
+    font-size: 18px;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    color: #5C5C5C;
+    margin-bottom: 40px; }
+  @media (max-width: 500px) {
+    #meet-the-team h2 {
+      font-size: 40px; } }
+  #meet-the-team .col-md-8 {
+    text-align: left; }
+  #meet-the-team p {
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    color: #424242;
+    line-height: 24px; }
+  #meet-the-team h4 {
+    font-family: "Patua One", cursive;
+    font-size: 36px;
+    color: #4F4F4F; }
+  #meet-the-team .row {
+    background: #EDEDED;
+    border: 10px solid #F9F9F9;
+    padding: 15px 0; }
+  #meet-the-team .oc-portfolio {
+    padding: 30px; }
+  #meet-the-team .owl-nav .owl-prev, #meet-the-team .owl-nav .owl-next {
+    opacity: 1 !important;
+    background: #D7D7C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    font-size: 25px; }
+    #meet-the-team .owl-nav .owl-prev:hover, #meet-the-team .owl-nav .owl-next:hover {
+      background: #C7C7B9 !important; }
+  #meet-the-team .owl-nav .owl-prev {
+    left: -24px; }
+  #meet-the-team .owl-nav .owl-next {
+    right: -24px; }
+  @media (max-width: 1200px) {
+    #meet-the-team img {
+      width: 25%;
+      margin: 0 auto;
+      margin-bottom: 5px; } }
+  @media (max-width: 991px) {
+    #meet-the-team img {
+      width: 50%; }
+    #meet-the-team h4 {
+      font-size: 28px; } }
+  @media (max-width: 480px) {
+    #meet-the-team img {
+      width: 70%; }
+    #meet-the-team h4 {
+      font-size: 20px; } }
 
 h1 {
   font-size: 64px; }
