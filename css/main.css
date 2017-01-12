@@ -25837,11 +25837,7 @@ a.social-icon.si-colored {
 
 .phone-slug .row {
   background: #D7D7C8;
-  border-radius: 9px;
-  margin: 0 auto;
-  position: absolute;
-  z-index: 9999;
-  margin-top: -80px; }
+  border-radius: 9px; }
 
 .phone-slug .new-text {
   font-family: "Arimo", sans-serif;
@@ -25896,11 +25892,85 @@ a.social-icon.si-colored {
   border-right: 2px solid #FFF; }
 
 .phone-slug .button {
-  width: 330px;
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 18px; }
 
 .phone-slug a:hover {
   text-decoration: none; }
+
+#phone-slug-1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #phone-slug-1 .row {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    z-index: 9999;
+    margin-top: -80px;
+    margin-left: -25px; }
+    @media (max-width: 1200px) {
+      #phone-slug-1 .row {
+        position: relative;
+        margin-top: 0; } }
+    @media (max-width: 991px) {
+      #phone-slug-1 .row {
+        display: none; } }
+
+.phone-slug-mobile {
+  padding-top: 30px; }
+  .phone-slug-mobile .text-new {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    margin-bottom: -20px;
+    font-size: 22px;
+    color: #424242;
+    line-height: 40px; }
+    @media (max-width: 767px) {
+      .phone-slug-mobile .text-new {
+        margin-bottom: -15px; } }
+  .phone-slug-mobile .phone-new a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #535353;
+    margin-bottom: -50px; }
+    @media (max-width: 767px) {
+      .phone-slug-mobile .phone-new a {
+        font-size: 32px; } }
+  .phone-slug-mobile .text-old {
+    font-family: "Arimo", sans-serif;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 22px;
+    color: #424242;
+    line-height: 35px;
+    margin-bottom: -10px; }
+  .phone-slug-mobile .phone-old a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #424242;
+    font-weight: 400; }
+  .phone-slug-mobile .col-sm-12 {
+    text-align: center; }
+    @media (max-width: 767px) {
+      .phone-slug-mobile .col-sm-12 {
+        padding: 0; } }
+  .phone-slug-mobile .button {
+    margin-top: -50px;
+    margin-bottom: 30px; }
+    @media (max-width: 767px) {
+      .phone-slug-mobile .button {
+        width: 270px;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px; } }
+  .phone-slug-mobile .btn-wrap {
+    text-align: center; }
 
 /** Contact Modal **/
 .form-error {
