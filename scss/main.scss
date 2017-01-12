@@ -1,5 +1,9 @@
 // Canvas Dependencies //
 
+$arimo: 'Arimo', sans-serif;
+$patua: 'Patua One', cursive;
+
+
 @import "dependencies/bootstrap.scss";
 @import "dependencies/style.scss";
 @import "dependencies/swiper.scss";
@@ -12,6 +16,7 @@
 @import "dependencies/contact-modal.scss";
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
 
 
 // End Canvas Dependencies //
@@ -19,16 +24,15 @@
 
 // Variables to define first //
 
-$primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $third-font: 'Roboto Condensed', sans-serif;
 $button-color: orange;
 $button-hover:gray;
 
+
 // CSS //
 
 body {
-  font-family:$primary-font;
 }
 
 h1 {
@@ -59,12 +63,33 @@ p {
   font-size:18px;
 }
 
-.button {
-  background:$button-color;
+.button, .button-2 {
+
   padding-top:2px;
+  text-transform:uppercase;
+  border-radius:5px;
+  box-shadow:none;
+}
+.button {
+  background:#FFF;
+  color:#FA6D22;
+  border:2px solid #FA6D22;
 }
 .button:hover {
-  background:$button-hover
+  background:#FA6D22;
+  color:#FFF;
+  border:2px solid #FFF;
+  text-shadow:none;
+}
+
+.button-2 {
+  background:#FA6D22;
+  border:none;
+  color:#FFF;
+  &:hover {
+    background:#E2631F;
+    border:none;
+  }
 }
 .content-wrap {
   padding:0;

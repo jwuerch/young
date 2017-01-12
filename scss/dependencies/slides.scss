@@ -1,0 +1,137 @@
+#slide-1, #slide-2, #slide-3 {
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.swiper-slide, #slider, .swiper-wrapper {
+  max-height:800px;
+  @media (max-width:1200px) {
+    max-height:565px;
+  }
+}
+
+
+#slide-1 {
+  @media (max-width:1200px) {
+
+  }
+  h2 {
+    /* smile more with Robe: */
+    font-family: $patua;
+    font-size: 92.4px;
+    color: #FFFFFF;
+    font-weight:400;
+    line-height: 41.4px;
+  }
+  h6 {
+    font-family:$arimo;
+    font-size:24px;
+    font-weight:400;
+    color:#FFF;
+  }
+  h4 {
+    font-family: $patua;
+    font-weight:400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom:15px;
+  }
+  .slider-caption {
+    text-align:center;
+    margin-top:175px;
+    right:225px;
+    @media (max-width:1200px) {
+      right:175px;
+      margin-top:125px;
+    }
+  }
+  .button {
+    width:300px;
+  }
+}
+.one-page-arrow {
+  position:relative;
+  top:-50px;
+  font-size:40px;
+  color:#FFF;
+  &:hover {
+    color:#FFF;
+  }
+  @media (max-width:1200px) {
+    display:none;
+  }
+
+}
+#slide-2 {
+  h2 {
+    font-family: $patua;
+    font-weight:400;
+    font-size: 57.4px;
+    color: #3F6711;
+    line-height: 66.4px;
+    margin-bottom:0;
+  }
+
+  .star-set {
+    margin-top:10px;
+  }
+  p {
+    font-family: $arimo;
+    font-size: 24px;
+    color: #424242;
+    line-height: 35px;
+    padding-right:75px;
+  }
+  .author {
+    margin-top:-10px;
+  }
+  .icon-star3 {
+    color: #FFD900;
+    font-size:40px;
+  }
+}
+#slide-3 {
+  h2 {
+    font-family: $patua;
+    margin-bottom:10px;
+    font-size: 70px;
+    color: #3F6711;
+    letter-spacing: 1px;
+    font-weight:400;
+  }
+  h5 {
+    font-weight:400;
+    font-family: $arimo;
+    font-size: 48px;
+    color: #515151;
+    line-height: 39px;
+    margin-bottom:30px;
+  }
+  h6 {
+    font-family: $arimo;
+    font-weight:400;
+    font-size: 37px;
+    color: #71706E;
+    letter-spacing: -0.24px;
+    line-height: 39px;
+  }
+  .button {
+    margin-top:20px;
+    text-align:center;
+    width:280px;
+  }
+  @media (max-width:1200px) {
+    h2 {
+      font-size:56px;
+    }
+    h5 {
+      font-size:40px;
+    }
+    h6 {
+      font-size:32px;
+    }
+    .button {
+      margin-top:15px;
+    }
+  }
+}
+

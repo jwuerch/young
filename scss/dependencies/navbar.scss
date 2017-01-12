@@ -1,18 +1,51 @@
 .navbar li > a {
-  color:gray;
+  color:#959595;
+  font-family:$arimo;
+  font-size:20px;
+  font-weight:700;
+  @media (max-width:1250px) {
+    font-size:16px;
+  }
+  @media (max-width:1150px) {
+    padding-left:7.5px;
+    padding-right:7.5px;
+  }
+  @media (max-width:1050px) {
+    font-size:15px;
+  }
 }
 .navbar > li:nth-child(1) > a {
   font-weight:700;
-  color:blue;
+  color:#D07109;
 }
 .navbar > li:nth-child(2) > a {
   font-weight:700;
-  color:red;
+  color:#B2963D;
 }
 .navbar > li:nth-child(3) > a {
   font-weight:700;
-  color:green;
+  color:#3F6711;
 }
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-    height:60px;
+    height:100px;
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  padding-top:39px;
+  padding-bottom:39px;
+}
+
+#header.full-header #logo {
+  padding-right:0;
+  margin-right:15px;
+}
+#primary-menu ul li > a {
+  @media (max-width:1150px) {
+    padding-left:7.5px;
+    padding-right:7.5px;
+  }
+}
+
+#primary-menu-trigger {
+  font-size:25px;
 }
