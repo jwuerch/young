@@ -25986,6 +25986,9 @@ a.social-icon.si-colored {
 .phone-slug-mobile {
   background: #D7D7C8; }
 
+#phone-slug-medium-2, #phone-slug-mobile-2 {
+  background: #D7D7C8; }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;
@@ -26019,6 +26022,12 @@ h4.modal-title {
 #contact-modal .modal-dialog {
   background: #FFF;
   border-radius: 5px; }
+
+#contact-modal .button-2 {
+  width: 100%; }
+
+.form-control {
+  font-size: 16px; }
 
 /** SPECIALS **/
 #specials {
