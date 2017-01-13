@@ -26461,7 +26461,8 @@ h4.modal-title {
 
 #slide-2 .icon-star3 {
   color: #FFD900;
-  font-size: 40px; }
+  font-size: 40px;
+  text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
 
 #slide-3 h2 {
   font-family: "Patua One", cursive;
@@ -26643,7 +26644,8 @@ h4.modal-title {
   @media (max-width: 1200px) {
     #no-insurance {
       background: #FAF8EC;
-      padding: 100px 0; } }
+      padding: 100px 0;
+      padding-bottom: 0; } }
   @media (max-width: 1200px) {
     #no-insurance .col-lg-5 {
       text-align: center; } }
@@ -26751,6 +26753,8 @@ h4.modal-title {
 
 #services {
   padding: 50px; }
+  #services .container {
+    width: 100%; }
   #services h2 {
     font-family: "Patua One", cursive;
     font-size: 48px;
