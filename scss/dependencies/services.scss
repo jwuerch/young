@@ -25,7 +25,7 @@
 
 #services-2 {
   padding:200px 0;
-  height:1000px;
+  height:800px;
   background:url('../images/services/cosmetic.jpg');
   background-repeat:no-repeat;
   background-size:contain;
@@ -48,7 +48,7 @@
   .col-lg-6:nth-child(2) {
     left:200px;
     position:relative;
-    top:200px;
+    top:100px;
     @media (max-width:1500px) {
       left:150px;
       padding-left:100px;
