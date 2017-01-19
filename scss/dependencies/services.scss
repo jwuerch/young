@@ -28,7 +28,8 @@
   height:1000px;
   background:url('../images/services/cosmetic.jpg');
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:contain;
+  background-color:#efeee9;
   @media (max-width:1300px) {
     background-position-x:-100px;
   }
@@ -148,3 +149,11 @@
     }
   }
 }
+
+#services-4 h6 {
+  margin-bottom:0;
+}
+p.learn-more {
+  text-decoration:underline;
+}
+

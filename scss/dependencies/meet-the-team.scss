@@ -23,7 +23,7 @@
       font-size:40px;
     }
   }
-  .col-md-8 {
+  .col-lg-8 {
     text-align:left;
   }
   p {
@@ -48,6 +48,7 @@
   .owl-nav {
     .owl-prev, .owl-next {
       opacity:1 !important;
+      border:2px solid #FFF;
       background:#D7D7C8;
       display:flex;
       align-items:center;

@@ -38,9 +38,7 @@
   .slider-caption {
     text-align:center;
     margin-top:175px;
-    right:225px;
     @media (max-width:1200px) {
-      right:175px;
       margin-top:125px;
     }
   }
@@ -138,3 +136,8 @@
 
 }
 
+@media (max-width:480px) {
+  #logo img {
+    padding:10px 0;
+  }
+}

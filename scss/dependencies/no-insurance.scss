@@ -1,5 +1,6 @@
 #no-insurance {
   padding:200px 0;
+  padding-top:100px;
   background:url('../images/insurance-bg2.jpg');
   background-repeat:no-repeat;
   background-position-y:100%;
@@ -11,6 +12,7 @@
     padding-bottom:0;
   }
   .col-lg-5 {
+    margin-top:50px;
     @media (max-width:1200px) {
       text-align:center;
     }
@@ -101,5 +103,21 @@
 }
 .no-insurance-mobile img {
   width:100%;
+}
+
+#no-insurance p {
+  font-size:18px;
+}
+.reviews-caption {
+  background:#515151;
+  padding:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  h6 {
+    color:#FFF;
+    margin-bottom:0;
+
+  }
 }
 

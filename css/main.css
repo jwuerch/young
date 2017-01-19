@@ -25998,6 +25998,52 @@ a.social-icon.si-colored {
 #phone-slug-medium-2, #phone-slug-mobile-2 {
   background: #D7D7C8; }
 
+#phone-slug-mobile-2 .row {
+  display: flex; }
+
+#phone-slug-mobile-2 .col-1 {
+  text-align: right; }
+  @media (max-width: 767px) {
+    #phone-slug-mobile-2 .col-1 {
+      text-align: center; } }
+
+#phone-slug-mobile-2 .col-2 {
+  border-left: 1px solid #222;
+  margin-top: 12px; }
+  @media (max-width: 767px) {
+    #phone-slug-mobile-2 .col-2 {
+      text-align: center;
+      border-left: none; } }
+  #phone-slug-mobile-2 .col-2 .btn-wrap {
+    text-align: left;
+    height: 100%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    align-self: center; }
+    @media (max-width: 767px) {
+      #phone-slug-mobile-2 .col-2 .btn-wrap {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+        padding-bottom: 20px; } }
+    #phone-slug-mobile-2 .col-2 .btn-wrap .button {
+      margin-bottom: 0;
+      margin-top: 0;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      padding-top: 0; }
+      @media (max-width: 991px) {
+        #phone-slug-mobile-2 .col-2 .btn-wrap .button {
+          width: 300px;
+          padding-left: 20px;
+          padding-right: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 18px; } }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;
@@ -26236,7 +26282,7 @@ h4.modal-title {
     line-height: 25px;
     text-decoration: underline; }
   #contact .p-3 {
-    margin-bottom: 15px; }
+    margin-bottom: 35px; }
   #contact .social-wrap {
     display: flex;
     justify-content: center;
@@ -26270,6 +26316,11 @@ h4.modal-title {
       width: 300px;
       font-size: 16px;
       padding-top: 5px; }
+      @media (max-width: 480px) {
+        #contact .col-2 .button {
+          width: 280px;
+          padding-left: 20px;
+          padding-right: 20px; } }
   #contact .col-3 {
     display: flex;
     padding-top: 0;
@@ -26384,6 +26435,17 @@ h4.modal-title {
 #contact {
   height: auto !important; }
 
+@media (max-width: 480px) {
+  #contact .col-2 .p-3 {
+    font-size: 18px; } }
+
+@media (max-width: 480px) {
+  #contact .p-1, #contact .p-3 {
+    font-size: 18px; } }
+
+#google-map {
+  max-height: 475px; }
+
 #slide-1, #slide-2, #slide-3 {
   background-size: cover;
   background-repeat: no-repeat; }
@@ -26417,11 +26479,9 @@ h4.modal-title {
 
 #slide-1 .slider-caption {
   text-align: center;
-  margin-top: 175px;
-  right: 225px; }
+  margin-top: 175px; }
   @media (max-width: 1200px) {
     #slide-1 .slider-caption {
-      right: 175px;
       margin-top: 125px; } }
 
 #slide-1 .button {
@@ -26503,6 +26563,10 @@ h4.modal-title {
   #slide-3 .button {
     margin-top: 15px; } }
 
+@media (max-width: 480px) {
+  #logo img {
+    padding: 10px 0; } }
+
 #meet-the-team {
   padding: 50px 0; }
   @media (min-width: 1201px) {
@@ -26523,7 +26587,7 @@ h4.modal-title {
   @media (max-width: 500px) {
     #meet-the-team h2 {
       font-size: 40px; } }
-  #meet-the-team .col-md-8 {
+  #meet-the-team .col-lg-8 {
     text-align: left; }
   #meet-the-team p {
     font-family: "Arimo", sans-serif;
@@ -26542,6 +26606,7 @@ h4.modal-title {
     padding: 30px; }
   #meet-the-team .owl-nav .owl-prev, #meet-the-team .owl-nav .owl-next {
     opacity: 1 !important;
+    border: 2px solid #FFF;
     background: #D7D7C8;
     display: flex;
     align-items: center;
@@ -26636,6 +26701,7 @@ h4.modal-title {
 
 #no-insurance {
   padding: 200px 0;
+  padding-top: 100px;
   background: url("../images/insurance-bg2.jpg");
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -26646,9 +26712,11 @@ h4.modal-title {
       background: #FAF8EC;
       padding: 100px 0;
       padding-bottom: 0; } }
-  @media (max-width: 1200px) {
-    #no-insurance .col-lg-5 {
-      text-align: center; } }
+  #no-insurance .col-lg-5 {
+    margin-top: 50px; }
+    @media (max-width: 1200px) {
+      #no-insurance .col-lg-5 {
+        text-align: center; } }
   #no-insurance h2 {
     font-family: "Patua One", cursive;
     font-weight: 400;
@@ -26716,6 +26784,19 @@ h4.modal-title {
 .no-insurance-mobile img {
   width: 100%; }
 
+#no-insurance p {
+  font-size: 18px; }
+
+.reviews-caption {
+  background: #515151;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .reviews-caption h6 {
+    color: #FFF;
+    margin-bottom: 0; }
+
 #office-tour {
   padding: 50px 0;
   background: #4F4F4F; }
@@ -26776,7 +26857,8 @@ h4.modal-title {
   height: 1000px;
   background: url("../images/services/cosmetic.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: contain;
+  background-color: #efeee9; }
   @media (max-width: 1300px) {
     #services-2 {
       background-position-x: -100px; } }
@@ -26875,6 +26957,12 @@ h4.modal-title {
   #services-4 .owl-nav .owl-next {
     right: -18px; }
 
+#services-4 h6 {
+  margin-bottom: 0; }
+
+p.learn-more {
+  text-decoration: underline; }
+
 /* Service Modals */
 #services a:hover {
   text-decoration: none; }
@@ -26913,6 +27001,14 @@ h4.modal-title {
 
 .modal-dialog {
   background: #FFF !important; }
+
+.service-modal .img-wrap {
+  position: relative;
+  box-shadow: none;
+  width: 50%;
+  height: auto;
+  margin-top: 0;
+  padding: 0; }
 
 h1 {
   font-size: 64px; }
