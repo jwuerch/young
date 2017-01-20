@@ -26821,7 +26821,8 @@ h4.modal-title {
     font-size: 24px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    border-width: 2px; }
     #office-tour .owl-nav .owl-prev:hover, #office-tour .owl-nav .owl-next:hover {
       background: #979C8F !important; }
     @media (max-width: 1200px) {
@@ -26833,7 +26834,7 @@ h4.modal-title {
     right: -18px; }
 
 #services {
-  padding: 50px; }
+  padding: 50px 0; }
   #services .container {
     width: 100%; }
   #services h2 {
@@ -26855,6 +26856,8 @@ h4.modal-title {
 #services-2 {
   padding: 200px 0;
   height: 800px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   background: url("../images/services/cosmetic.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -26942,6 +26945,7 @@ h4.modal-title {
     margin-top: 10px; }
   #services-4 .owl-nav .owl-prev, #services-4 .owl-nav .owl-next {
     opacity: 1 !important;
+    border-width: 2px;
     background: #D7D7C8;
     color: #FFF;
     display: flex;
